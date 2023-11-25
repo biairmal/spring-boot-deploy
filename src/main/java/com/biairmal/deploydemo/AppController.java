@@ -8,7 +8,7 @@ public class AppController {
 
     @GetMapping
     public Message hello() {
-        return new Message("Hello, the server is up and running!");
+        return new Message("Hello world, the server is up and running!");
     }
 
 }
