@@ -16,6 +16,6 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build the Docker image
       run: | 
-        docker login -u biairmal -p ${{ secrets.ghcr_pat }}
+        docker login ghcr.io -u biairmal -p ${{ secrets.ghcr_pat }}
         docker build . --tag ghcr.io/biairmal/spring-boot-demo:latest
         docker push ghcr.io/biairmal/spring-boot-demo:latest
