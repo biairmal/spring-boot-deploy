@@ -13,7 +13,7 @@
     ```    
 4. Tag local image
    ```
-   docker tag [SOURCE] [TARGET]
+   # docker tag [SOURCE] [TARGET]
    docker tag spring-boot-demo ghcr.io/biairmal/spring-boot-demo
     ```
 5. Push the docker image
